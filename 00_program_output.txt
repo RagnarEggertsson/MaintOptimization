@@ -1,0 +1,110 @@
+
+
+Experiment 1, 2x2 dgr. & 3 obsv.
+For problem with state number: [2, 2]
+>. Iteration 67, vectors 8, bound 0.1964827185769392
+Minimal value 33.78
+Starting value 26.972829619455084 in state 0
+Total running time 33.70030856132507
+Average time in NO intervention 0.5005641054751268
+Average time in intervention 0.001714080127317514
+
+Stage II: state, action, target
+(0, 0) & (0, 0) & (0, 0)\\
+(0, 1) & (0, 1) & (0, 0)\\
+(1, 0) & (1, 0) & (0, 0)\\
+(1, 1) & (1, 1) & (0, 0)\\
+Outside check: starting in good state value 26.972829619455084
+
+Perfect information case
+For problem with state number: [2, 2]
+>. Iteration 74, vectors 2, bound 0.09397707519892244
+Minimal value 28.8
+Starting value 22.143220002621106 in state 0
+Total running time 1.042945146560669
+Average time in NO intervention 0.01367520319448935
+Average time in intervention 0.00027642701123211836
+Outside check: starting in good state value 22.143220002621106
+
+No information case
+For problem with state number: [2, 2]
+>. Iteration 74, vectors 5, bound 0.09397707519892244
+Minimal value 38.800000000000004
+Starting value 33.12921338820002 in state 0
+Total running time 2.566275119781494
+Average time in NO intervention 0.03410392194180875
+Average time in intervention 0.00034125431163890943
+Outside check: starting in good state value 33.12921338820002
+
+Testing belief state updating
+
+Observation 0
+
+Observation 1
+Switch to action 1 after 4 obsv
+(0, 0): 0.009 (0, 1): 0.478 (1, 0): 0.448 (1, 1): 0.065 
+
+Observation 2
+Switch to action 1 after 1 obsv
+(0, 0): 0.000 (0, 1): 0.692 (1, 0): 0.000 (1, 1): 0.308 
+
+
+Experiment 3, 3x3 dgr. & 2 obsv.
+Imperfect information case
+For problem with state number: [3, 3]
+>. Iteration 65, vectors 80, bound 0.19004598520856855
+Minimal value 46.3900300919388
+Starting value 29.42036108604982 in state 0
+Total running time 677.7591550350189
+Average time in NO intervention 10.416852774986854
+Average time in intervention 0.0060091788952167215
+Flip values
+These are used to find the bounds for the 3 region example
+{(0, 0): 0, (0, 1): 1, (0, 2): 2, (1, 0): 3, (1, 1): 4, (1, 2): 5, (2, 0): 6, (2, 1): 7, (2, 2): 8}
+[0.63606061 0.         0.         0.         0.         0.
+ 0.36393939 0.         0.        ]
+[0.         0.         0.         0.         0.         0.
+ 0.40434343 0.         0.59565657]
+None
+
+Stage II: state, action, target
+(0, 0) & (0, 0) & (0, 0)\\
+(0, 1) & (0, 0) & (0, 1)\\
+(0, 2) & (0, 0) & (0, 2)\\
+(1, 0) & (1, 0) & (0, 0)\\
+(1, 1) & (1, 0) & (0, 1)\\
+(1, 2) & (0, 0) & (1, 2)\\
+(2, 0) & (1, 0) & (0, 0)\\
+(2, 1) & (1, 0) & (0, 1)\\
+(2, 2) & (0, 0) & (2, 2)\\
+
+Perfect information case
+For problem with state number: [3, 3]
+>. Iteration 61, vectors 2, bound 0.28966009024320766
+Minimal value 33.2
+Starting value 26.082427304315246 in state 0
+Total running time 2.3050453662872314
+Average time in NO intervention 0.03709386606685451
+Average time in intervention 0.0005333814464631628
+
+No information case
+For problem with state number: [3, 3]
+>. Iteration 61, vectors 13, bound 0.28966009024320766
+Minimal value 46.334411271704326
+Starting value 32.746059227493646 in state 0
+Total running time 6.422590970993042
+Average time in NO intervention 0.10371366094370357
+Average time in intervention 0.0010330051672263225
+
+Testing belief state updating
+
+Observation 0
+
+Observation 1
+Switch to action 1 after 2 obsv
+(0, 0): 0.000 (0, 1): 0.045 (0, 2): 0.002 (1, 0): 0.556 (1, 1): 0.091 (1, 2): 0.002 (2, 0): 0.278 (2, 1): 0.026 (2, 2): 0.000 
+Switch to action 0 after 6 obsv
+(0, 0): 0.000 (0, 1): 0.001 (0, 2): 0.001 (1, 0): 0.009 (1, 1): 0.033 (1, 2): 0.012 (2, 0): 0.277 (2, 1): 0.021 (2, 2): 0.647 
+
+
+Program runtime 817.8409721851349
